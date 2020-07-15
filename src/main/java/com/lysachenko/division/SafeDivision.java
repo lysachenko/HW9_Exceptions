@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class SafeDivision {
 
+    Scanner scanner = new Scanner(System.in);
+
     public void division() {
-        Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter first number: ");
         int a = scanner.nextInt();
 
