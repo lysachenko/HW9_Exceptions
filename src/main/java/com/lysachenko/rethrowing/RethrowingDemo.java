@@ -2,11 +2,11 @@ package com.lysachenko.rethrowing;
 
 public class RethrowingDemo {
 
-    public void someMethod() throws NullPointerException {
+    public void someMethod() throws ClassNotFoundException {
         someMethod2();
     }
 
-    public void someMethod2() {
-        throw new NullPointerException();
+    public void someMethod2() throws ClassNotFoundException {
+        throw new ClassNotFoundException();
     }
 }
